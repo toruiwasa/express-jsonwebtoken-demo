@@ -2,6 +2,10 @@
 
 A full-stack authentication demo showcasing JWT implementation with access and refresh tokens in a modern monorepo setup.
 
+<div style="text-align: center;">
+  <img src="./login_img.png" width="480">
+</div>
+
 ## Overview
 
 This project demonstrates a complete authentication system using Express.js backend with React frontend, featuring secure JWT token management, password hashing, and protected routes. Built as a learning resource for understanding modern authentication patterns.
