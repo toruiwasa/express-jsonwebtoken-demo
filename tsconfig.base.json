@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2024",
+    "lib": ["ES2024"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "declaration": true,
+    "declarationMap": true,
+    "composite": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "noEmitOnError": true,
+    "baseUrl": ".",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "paths": {
+      "@express-jsonwebtoken-demo/database/*": ["packages/database/src/*"],
+      "@express-jsonwebtoken-demo/shared/*": ["packages/shared/src/*"]
+    }
+  },
+  "files": []
+}

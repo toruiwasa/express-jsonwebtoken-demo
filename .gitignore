@@ -1,0 +1,12 @@
+tmp/
+
+**/node_modules/
+**/.env
+
+**/*.tsbuildinfo
+
+# Certs for dev
+certs/
+**/*.pem
+**/*.crt
+**/*.key

@@ -1,0 +1,23 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "checkJs": false,
+    "strict": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": false,
+    "noImplicitAny": true,
+    "types": ["node"],
+    "skipLibCheck": true,
+    "typeRoots": ["./src/types/**/*.d.ts", "./node_modules/@types/"]
+  },
+  "include": ["./src/**/*"]
+}
