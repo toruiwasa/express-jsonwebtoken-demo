@@ -20,7 +20,6 @@ export const signup = async (
   res: Response,
 ) => {
   try {
-    console.log(1);
     const result = SignupInputSchema.safeParse(req.body);
     if (result.error) {
       return res.status(400).json(flattenError(result.error));
@@ -55,11 +54,9 @@ export const login = async (
 ) => {
   try {
     const result = LoginInputSchema.safeParse(req.body);
-    console.log(1);
     if (result.error) {
       return res.status(400).json(flattenError(result.error));
     }
-    console.log(2);
 
     const { email, password } = result.data;
 
@@ -73,7 +70,6 @@ export const login = async (
     const [user] = users;
 
     const valid = compareSync(password, user.password);
-    console.log(3);
     if (!valid) throw new Error("The email address or password is incorrect.");
     const accesstoken = createAccessToken(user.id);
     const refreshtoken = createRefreshToken(user.id);

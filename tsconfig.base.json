@@ -12,6 +12,7 @@
     "skipLibCheck": true,
     "noEmitOnError": true,
     "baseUrl": ".",
+    "ignoreDeprecations": "6.0",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "paths": {

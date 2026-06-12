@@ -51,7 +51,7 @@ This project demonstrates a complete authentication system using Express.js back
 
 ## Prerequisites
 
-- **Node.js** 18+
+- **Node.js** 24+
 - **pnpm** 8+
 - **Docker** (for PostgreSQL)
 - **mkcert** (for SSL certificates)
