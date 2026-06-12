@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router";
-import { Card, CardContent, CardFooter, CardHeader } from "./ui/card";
+import { Card, CardContent, CardHeader } from "./ui/card";
 import { Button } from "./ui/button";
 import { TypographyH2 } from "./ui/typographyH2";
 import { Label } from "./ui/label";
@@ -16,7 +16,7 @@ const Signup = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const result = await (
-      await fetch("https://localhost:4000/register", {
+      await fetch("https://localhost:4000/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

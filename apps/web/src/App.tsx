@@ -7,7 +7,7 @@ import Navigation from "./components/Navigation";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
 import Protected from "./components/Protected";
-import { UserProvider, useUser } from "./contexts/UserContext";
+import { useUser } from "./contexts/UserContext";
 import { toast } from "sonner";
 import { Toaster } from "@/components/ui/sonner";
 import { Main } from "./components/Main";

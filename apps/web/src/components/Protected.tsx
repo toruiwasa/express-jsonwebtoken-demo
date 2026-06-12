@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext } from "react";
+import { useEffect, useState } from "react";
 import { useUser } from "../contexts/UserContext";
 
 const Protected = () => {
