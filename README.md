@@ -108,6 +108,20 @@ pnpm dev
 
 ## Usage
 
+### Database Seeding
+
+To quickly test authentication, you can seed the database with a test user. Run the following command:
+
+```bash
+pnpm db:seed
+```
+
+This will create a test user with the following credentials:
+- **Email:** `test@example.com`
+- **Password:** `SecureDemoP@ssw0rd!2026`
+
+These credentials meet the password complexity requirements below.
+
 ### Password Requirements
 
 Passwords must contain:
